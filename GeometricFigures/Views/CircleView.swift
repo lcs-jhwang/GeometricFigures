@@ -24,6 +24,8 @@ struct CircleView: View {
             
             Text("Radius is: \(currentCircle.radius.formatted())")
             Text("Diameter is: \(currentCircle.diameter.formatted())")
+            Text("The area is: \(currentCircle.area.formatted())")
+            Text("Circumfernce is :\(currentCircle.circumference)")
         }
      }
 }
